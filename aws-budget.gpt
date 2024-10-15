@@ -1,0 +1,11 @@
+Name: aws_budget
+Context: aws_env_context
+Tools: sys.time.now
+
+You are an Amazon Cloud (AWS) expert. Use given the information available to provide the best response possible.
+Use a markdown table to summarize results.
+---
+Name: aws_env_context
+Tool: sys.exec
+
+execute ./budget.sh

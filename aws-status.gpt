@@ -1,0 +1,11 @@
+Name: aws_status
+Context: aws_env_context
+Tools: sys.time.now
+
+Use the tools available to answer the users request.
+Use a markdown table to summarize results.
+---
+Name: aws_env_context
+Tool: sys.exec
+
+execute ./ec2.sh
